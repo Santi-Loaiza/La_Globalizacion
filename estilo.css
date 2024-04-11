@@ -4,6 +4,19 @@ nav{
     border-radius: 0.9rem;
     padding: 0.6%;
 }
+.main-nav{
+    list-style: none;
+}
+.main-nav__item{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #b8c2d2;
+    margin-right: 0.7rem;
+}
+.main-nav__item a:hover{
+    color: #000205;
+}
 h1{
     font-size: 2rem;
     color: rgb(143, 188, 180);
